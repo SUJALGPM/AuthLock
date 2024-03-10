@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+.containery{
+    display:flex;
+}
+main{
+    width: 100%;
+    padding: 20px;
+}
+.sidebar{
+    background: #000;
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    transition: all 0.5s;
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+}
+.logo{
+    font-size: 30px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background:lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+}
+.active{
+    background: lightskyblue;
+    color: #000;
+}
+.icon, .link_text{
+    font-size: 20px;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./assets/entryback3.webp');
+}
+
+.login-box {
+    width: 310px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(223, 233, 255, 1);
+    margin-bottom: 30px;
+}
+
+.form-area {
+    margin-top: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-button {
+    width: 170px;
+    margin-top: 20px;
+}
+
+
